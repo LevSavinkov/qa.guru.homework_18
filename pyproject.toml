@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "qa-guru-homework-18"
+version = "0.1.0"
+description = "Prject for API tests from homework #18"
+authors = ["Lev Savinkov"]
+readme = "README.md"
+packages = [{include = "qa"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+pytest = "^8.3.3"
+allure-pytest = "^2.13.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
